@@ -1,0 +1,8 @@
+<ion-content class="content-page content-gradient" scrollX="true" scrollY="true">
+  <div padding id="diretrizes-layer">
+    <form [formGroup]="diretrizesForm" (ngSubmit)="backMenu()" autocomplete=”off” >
+      <ion-button expand="block" class="cta" color="orange" (click)="openLocalPdf()">Open Local PDF</ion-button>
+      <ion-button expand="block" class="cta low" color="white" (click)="backMenu()">Voltar</ion-button>
+    </form>
+  </div>
+</ion-content>
